@@ -58,7 +58,6 @@ Builder.configure({
         '-pedantic',
         '-D',builder.config.systemName + '=1',
         '-Wno-unused-parameter',
-        '-Wno-unused-result',
 
         // Broken GCC patch makes -fstack-protector-all not work
         // workaround is to give -fno-stack-protector first.
